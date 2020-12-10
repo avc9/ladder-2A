@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    int lb,bh,lh;
-    scanf("%d%d%d",&lb,&bh,&lh);
-    int lbh=sqrt(lb*bh*lh);
-    int ans=4*(lb*bh+bh*lh+lb*lh)/lbh;
-    printf("%d",ans);
+    float lb,bh,lh;
+    scanf("%f%f%f",&lb,&bh,&lh);
+    float lbh=1.0*sqrt(lb*bh*lh);
+    float ans=4.0*(lb*bh+bh*lh+lb*lh)/lbh;
+    printf("%0.0f",ans);
     return 0;
 }
