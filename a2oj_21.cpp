@@ -8,10 +8,7 @@ int main(){
     }
     else{
 
-        while((n-m*Rs)>=0&&(a*n+(b-a*m)*Rs)>=0){
-            Rs++;
-        }
-        cout<<a*n+(b-a*m)*(Rs);
+        cout << (n/m) * b + min((n%m) * a, b) << "\n";
     }
     return 0;
 
