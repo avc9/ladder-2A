@@ -33,3 +33,4 @@ int main()
     }
     cout << cakes << endl;
     return 0;
+}
